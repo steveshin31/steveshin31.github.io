@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-### About this site
+### About Me!
 
 Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
 
