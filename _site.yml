@@ -9,5 +9,7 @@ navbar:
       href: mailto:ks3663@cumc.columbia.edu
     - icon: fa-github fa-lg
       href: http://github.com/steveshin31/
+    - text: "Flexdash"
+      href: flexdash.html
 output:
   html_document
