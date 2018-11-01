@@ -1,3 +1,19 @@
 ---
 title: "Flexdashboard"
 ---
+
+```{r}
+library(tidyverse)
+library(viridis)
+library(plotly)
+library(readr)
+```
+
+```{r}
+set.seed(1)
+
+weather_df = read.csv("./nynoaadat.csv")
+
+weather_df
+```
+
