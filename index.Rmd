@@ -1,10 +1,10 @@
 ---
-title: "Holy cow!"
+title: "My Website!"
 ---
 
 
 
 
-### I have a webpage!
+### Welcome to my personal website!
 
-And I can put all kinds of stuff on it!
+Hi! My name is Stephen Shin, and I am a first year Masters student studying Biostatistics. 
