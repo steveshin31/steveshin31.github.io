@@ -3,12 +3,10 @@ title: "My Website!"
 ---
 
 
-<img src = "IMG-6303.jpg" style = "width:25%">
+<center><img src = "IMG-6303.jpg" style = "width:25%">
 
 ### Welcome to my personal website!
 
 Hi! My name is Stephen Shin, and I am a first year Masters student studying Biostatistics. 
 
 
-
-Make sure to run it in command line (the render line)
