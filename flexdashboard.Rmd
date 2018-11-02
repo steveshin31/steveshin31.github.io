@@ -47,15 +47,13 @@ instacart %>%
   plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar")
 ```
 
-### Mean hour of the day at which fresh foods are bought through day of the week 
+### Number of items bought from fresh food aisles throughout the week 
 
 ```{r}
 instacart %>% 
   filter(str_detect(aisle, "fresh ")) %>% 
-  select(aisle, order_dow, order_hour_of_day) %>% 
-  arrange(aisle, order_dow) %>% 
   group_by(aisle, order_dow) %>% 
-  mutate(mean_hour = mean(order_hour_of_day)) %>% 
-  plot_ly(x = ~order_dow, y = ~mean_hour, type = "scatter", mode = "line", color = ~aisle)
+  summarize(n = n()) %>% 
+  plot_ly(x = ~order_dow, y = ~n, type = "scatter", mode = "line", color = ~aisle)
 ```
 
