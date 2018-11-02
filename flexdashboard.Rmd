@@ -22,20 +22,20 @@ instacart %>%
 Column {data-width=550}
 -----------------------------------------------------------------------
 
-### Chart A
+### The hour of day of purchase for fresh vs. frozen foods
 
 ```{r}
 # Create boxplot comparing order hour of day of fresh vs. frozen items
 instacart %>% 
   filter(str_detect(aisle, "frozen|fresh ")) %>% 
   mutate(aisle = fct_reorder(aisle, order_hour_of_day)) %>% 
-  plot_ly(y = ~order_hour_of_day, color = ~aisle, type = "box", colors = "Set2")
+  plot_ly(y = ~order_hour_of_day, color = ~aisle, type = "box", colors = "Set2") 
 ```
 
 Column {data-width=450}
 -----------------------------------------------------------------------
 
-### Chart B
+### Total items purchased in ten most popular aisles 
 
 ```{r}
 instacart %>%
@@ -47,7 +47,7 @@ instacart %>%
   plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar")
 ```
 
-### Chart C
+### Mean hour of the day at which fresh foods are bought through day of the week 
 
 ```{r}
 instacart %>% 
