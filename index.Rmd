@@ -7,6 +7,6 @@ title: "My Website!"
 
 ### Welcome to my personal website!
 
-Hi! My name is Stephen Shin, and I am a first year Masters student studying Biostatistics. 
+Hi! My name is Stephen Shin. Learn more about me! 
 
 
