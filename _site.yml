@@ -10,7 +10,7 @@ navbar:
     - icon: fa-github fa-lg
       href: http://github.com/steveshin31/
     - text: "Flexdash"
-      href: flexdash.html
+      href: flexdashboard.html
 output:
   html_document
   
