@@ -1,0 +1,61 @@
+---
+title: "Instacart Plots"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(p8105.datasets)
+library(tidyverse)
+library(plotly)
+
+data("instacart")
+
+instacart %>% 
+  janitor::clean_names()
+
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+# Create boxplot comparing order hour of day of fresh vs. frozen items
+instacart %>% 
+  filter(str_detect(aisle, "frozen|fresh ")) %>% 
+  mutate(aisle = fct_reorder(aisle, order_hour_of_day)) %>% 
+  plot_ly(y = ~order_hour_of_day, color = ~aisle, type = "box", colors = "Set2")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+instacart %>%
+  group_by(aisle) %>%
+  summarize(n = n()) %>%
+  arrange(-n) %>% 
+  top_n(10) %>% 
+  mutate(aisle = fct_reorder(aisle, n)) %>% 
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar")
+```
+
+### Chart C
+
+```{r}
+instacart %>% 
+  filter(str_detect(aisle, "fresh ")) %>% 
+  select(aisle, order_dow, order_hour_of_day) %>% 
+  arrange(aisle, order_dow) %>% 
+  group_by(aisle, order_dow) %>% 
+  mutate(mean_hour = mean(order_hour_of_day)) %>% 
+  plot_ly(x = ~order_dow, y = ~mean_hour, type = "scatter", mode = "line", color = ~aisle)
+```
+
