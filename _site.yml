@@ -5,12 +5,15 @@ navbar:
   right:
     - text: "About"
       href: about.html
+    - text: "Flexdash"
+      href: flexdashboard.html
+    - text: "Resume"
+      href: resume.html
     - icon: fa-envelope fa-lg
       href: mailto:<ks3663@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/steveshin31/
-    - text: "Flexdash"
-      href: flexdashboard.html
+    
 output:
   html_document:
     theme: yeti

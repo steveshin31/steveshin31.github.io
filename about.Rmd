@@ -4,15 +4,12 @@ title: "About"
 
 I am currently a first year Masters student studying Biostatistics at Mailman School of Public Health. 
 
-Born and raised in Seoul, South Korea, I moved to the U.S. with my sister and my mother in search for better education and opportunity. Growing up, I fell in love with the game of basketball and used it as a means to incorporate myself into the U.S. culture and society. I acquired my Bachelors Degree from the University of North Carolina at Chapel Hill. Attached is my resume. 
+Born and raised in Seoul, South Korea, I moved to the U.S. with my sister and my mother in search for better education and opportunity. Growing up, I fell in love with the game of basketball and used it as a means to incorporate myself into the U.S. culture and society. I acquired my Bachelors Degree from the University of North Carolina at Chapel Hill. Here is my [resume](resume.html)
 
-[Resume](file:///C:/Users/steph/Desktop/Biostatistical%20Methods/Hw2_problem%201.pdf)
+
 
 
 
 
 This website was made using RMarkdown in RStudio. The site is hosted on GitHub and the source code can be found [here](https://github.com/steveshin31/steveshin31.github.io)
 
-
-
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
