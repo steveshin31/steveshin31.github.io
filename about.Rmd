@@ -1,12 +1,22 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
 I am currently a first year Masters student studying Biostatistics at Mailman School of Public Health. 
 
-Born and raised in Seoul, South Korea, I moved to the U.S. with my sister and my mother in search for better education and opportunity. Growing up, I fell in love with the game of basketball and used it as a means to incorporate myself into the U.S. culture and society. I acquired my Bachelors Degree from the University of North Carolina at Chapel Hill. Here is my [resume](resume.html)
+Born and raised in Seoul, South Korea, I moved to the U.S. with my sister and my mother in search for better education and opportunity. Growing up, I fell in love with the game of basketball and used it as a means to incorporate myself into the U.S. culture and society. I acquired my Bachelors Degree from the University of North Carolina at Chapel Hill. Here is my [resume.](resume.html)
 
+### Interests
+- Basketball
 
+- Playing with dogs!
+
+- Making beats on the computer
+
+### Research Interests
+- HIV related work
+
+- Microbiology
 
 
 

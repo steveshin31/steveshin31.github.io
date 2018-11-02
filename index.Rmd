@@ -7,6 +7,6 @@ title: "Website"
 
 ### Welcome to my personal website!
 
-Hi! My name is Stephen Shin. Learn more about me! 
+Hi! My name is Stephen Shin. Learn more about [me!](about.html) 
 
 
