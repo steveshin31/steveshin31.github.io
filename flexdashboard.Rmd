@@ -50,12 +50,6 @@ instacart %>%
 ### Chart C
 
 ```{r}
-instacart %>% 
-  filter(str_detect(aisle, "fresh ")) %>% 
-  select(aisle, order_dow, order_hour_of_day) %>% 
-  arrange(aisle, order_dow) %>% 
-  group_by(aisle, order_dow) %>% 
-  mutate(mean_hour = mean(order_hour_of_day)) %>% 
-  plot_ly(x = ~order_dow, y = ~mean_hour, type = "scatter", mode = "line", color = ~aisle)
+
 ```
 
