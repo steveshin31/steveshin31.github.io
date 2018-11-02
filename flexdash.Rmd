@@ -9,11 +9,25 @@ library(plotly)
 library(readr)
 ```
 
+
 ```{r}
-set.seed(1)
 
-weather_df = read.csv("./nynoaadat.csv")
+library(p8105.datasets)
+data("instacart")
 
-weather_df
+instacart %>% 
+  janitor::clean_names()
+  
+instacart %>% 
+  filter(aisle == "fresh vegetables") %>% 
+  mutate(order_dow = as.character(order_dow)) %>% 
+  plot_ly(y = ~order_hour_of_day, color = ~order_dow, type = "box", 
+          colors = "Set2") 
+
+instacart %>%
+  group_by(aisle) %>%
+  summarize(n = n()) %>%
+  arrange(-n)
+
 ```
 
