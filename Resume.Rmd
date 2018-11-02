@@ -1,5 +1,0 @@
----
-title: "Resume"
----
-
-Here is the link to my resume! [Resume](file:///C:/Users/steph/OneDrive/Documents/Shin-Resume%20(Version%202).pdf)
