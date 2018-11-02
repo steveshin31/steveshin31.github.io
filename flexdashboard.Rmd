@@ -19,7 +19,7 @@ instacart %>%
 
 ```
 
-Column {data-width=650}
+Column {data-width=550}
 -----------------------------------------------------------------------
 
 ### Chart A
@@ -32,7 +32,7 @@ instacart %>%
   plot_ly(y = ~order_hour_of_day, color = ~aisle, type = "box", colors = "Set2")
 ```
 
-Column {data-width=350}
+Column {data-width=450}
 -----------------------------------------------------------------------
 
 ### Chart B
