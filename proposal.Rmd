@@ -1,0 +1,37 @@
+---
+title: "Proposal"
+author: "Kee-Young Shin"
+date: "December 5, 2018"
+output: html_document
+---
+
+## Group Members
+Jingyu Xu jx2371
+Runqi Ma rm3609
+Zixu Wang zw2541
+Man Luo ml4239
+Kee-Young Shin ks3663
+
+## The Tentative Project Title
+The Status of HIV in NYC
+
+## Motivation for Project
+HIV/AIDS have been a global health issue since the 1980s. Increase in health initiatives has raised awareness and provided better treatments for those suffering from these conditions. Though, much progress has been made, HIV/AIDS still pose a great threat to public health. This project will assess the current status of HIV/AIDS in NYC and attempt to find significant patterns within the data. 
+
+## Intended Final Products
+We intend to create visualizations that depict the current status of HIV in NYC. Additionally, we intend to assess the datasets to determine how much progress has been made over the years in terms of awareness and treatment. Ultimately, we hope to incorporate various forms of analyses including plots of distributions, regression analysis of possible factors that may influence the case rate, and a map using shiny to visualize the results that we have found. 
+
+## Anticipated Data Sources
+https://data.cityofnewyork.us/Health/HIV-AIDS-Diagnoses-by-Neighborhood-Sex-and-Race-Et/ykvb-493p
+https://data.cityofnewyork.us/Health/HIV-Testing-Locations/72ss-25qh/data
+https://data.cityofnewyork.us/Health/DOHMH-HIV-AIDS-Annual-Report/fju2-rdad
+
+## The planned analyses / visualizations / coding challenges
+The main challenge will be compiling the massive amounts of data and wrangling it to create a digestible report. We also expect to face some challenges in incorporating different datasets in a sensible way. 
+
+## Planned Timeline
+Compile relevant datasets: Nov. 12
+Analyze datasets: Nov. 16
+Extract information and create analyses: Nov. 25
+Compile and create website: Dec. 1
+Polish: Dec. 6
