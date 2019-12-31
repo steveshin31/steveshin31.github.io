@@ -1,7 +1,18 @@
 ---
 title: "Projects"
 ---
+<br>
+
+### Efficient Basket Trial Designs
+-[Paper](https://steveshin31.github.io/assets/Efficient%20Basket%20Trial%20Designs.pdf)
 
 ### Comparison of Machine Learning Methods in Prediction of Magazine Article Popularity
 
--[Paper](C:/Users/steph/OneDrive/Documents/Biostatistics%20Tools/Machine%20Learning%20Classification%20Popularity.pdf)
+-[Paper](https://steveshin31.github.io/assets/Machine%20Learning%20Classification%20Popularity.pdf)
+
+
+### Assessing Level of Hate Crime Over the Last Decade
+
+-[Website](https://petewang68.github.io/final_project/index.html)
+
+

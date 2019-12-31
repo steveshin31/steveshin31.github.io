@@ -2,9 +2,11 @@
 title: "About Me"
 ---
 
-I am currently a first year Masters student studying Biostatistics at Mailman School of Public Health. 
+Hi my name is Stephen and I am currently a second year MS student studying Biostatistics at Columbia Mailman School of Public Health. 
 
-Born and raised in Seoul, South Korea, I moved to the U.S. with my sister and my mother in search for better education and opportunity. Growing up, I fell in love with the game of basketball and used it as a means to incorporate myself into the U.S. culture and society. I acquired my Bachelors Degree from the University of North Carolina at Chapel Hill. Here is my [resume.](resume.html)
+Born and raised in Seoul, South Korea, I moved to the U.S. with my sister and my mother in search of better education and opportunity. Growing up, I fell in love with the game of basketball and used it as a means to incorporate myself into the U.S. culture and society. 
+
+I acquired my Bachelors Degree from the University of North Carolina at Chapel Hill, and it was here where I discovered my love for Biostatistics and data science as a whole. There is a special feeling of power and significance one can get as a Biostatistician; the fact that I can analyze data from millions of patients and derive meaningful public health findings from behind a small computer amazes me everyday! If you want to get some more information about me, here is my [resume.](resume.html)
 
 ### Interests
 - Basketball
@@ -14,9 +16,11 @@ Born and raised in Seoul, South Korea, I moved to the U.S. with my sister and my
 - Making beats on the computer
 
 ### Research Interests
-- HIV related work
+- Infectious Diseases
 
 - Microbiology
+
+- Phase I, II Clinical Trials
 
 
 
