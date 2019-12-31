@@ -7,6 +7,8 @@ navbar:
       href: about.html
     - text: "Flexdash"
       href: flexdashboard.html
+    - text: "Projects"
+      href: projects.html 
     - text: "Resume"
       href: resume.html
     - icon: fa-envelope fa-lg
