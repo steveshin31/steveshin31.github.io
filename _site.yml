@@ -5,8 +5,6 @@ navbar:
   right:
     - text: "About"
       href: about.html
-    - text: "Flexdash"
-      href: flexdashboard.html
     - text: "Projects"
       href: projects.html 
     - text: "Resume"
