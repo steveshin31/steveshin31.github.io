@@ -2,4 +2,4 @@
 title: ""
 ---
 
-<center><img src = "Shin-Resume (3)-page-001.jpg" style = "width:100%">
+<center><img src = "Shin-Resume (3)-1.jpg" style = "width:100%">
